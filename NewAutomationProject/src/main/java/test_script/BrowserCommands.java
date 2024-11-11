@@ -4,11 +4,11 @@ public class BrowserCommands extends Base
 {
     public void browser_commands() 
     {
-	   String title = driver.getTitle();  // To identify the page title
+	   String title = driver.getTitle();  // To get the page title
 	   System.out.println(title);
-	   String url = driver.getCurrentUrl();
-       System.out.println(url); // To get current URL 
-       String page_source = driver.getPageSource();
+	   String url = driver.getCurrentUrl();// To get the current page URL 
+       System.out.println(url); 
+       String page_source = driver.getPageSource();// To get the page source code
        System.out.println(page_source);
     }
 	public static void main(String[] args) 

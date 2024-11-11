@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class Base 
 {
-  public WebDriver driver; // Declaring driver as global variable
+  public WebDriver driver; // Declaring driver as global 
   
   public void initializeBrowser() // Instance method to open browser and launch URL
   {

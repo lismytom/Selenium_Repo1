@@ -6,7 +6,7 @@ public class NavigationCommands extends Base
 	{
 		driver.navigate().to("https://www.amazon.in/");   // To navigate to another page from prevoius page
 		driver.navigate().back(); // To go back to the previous page
-		driver.navigate().forward(); // To navigate to next page
+		driver.navigate().forward(); // To navigate forward to the  page
 		driver.navigate().refresh();  // To refresh page
 	}
 
