@@ -14,7 +14,7 @@ public class Base
   public void quickClose() // Instance method to close windows and browser
   {
 	driver.close(); // To close current window  
-	driver.quit();  // To close all windows open after launching the site
+	//driver.quit();  // To close all windows open after launching the site
   }
   
 
