@@ -45,6 +45,27 @@ public class Locators extends Base
 		WebElement rpath1=driver.findElement(By.xpath("//input[@placeholder='Message']"));
 		WebElement rpath2=driver.findElement(By.xpath("//input[@fdprocessedid='kdbigp']"));
 	}
+	public void contains_xpath()
+	{
+		// //tagname[contains(@attributetype,'value')]
+		WebElement c1=driver.findElement(By.xpath("//input[contains(@id,'single-input-field')]"));
+	}
+	public void text()
+	{
+		// //tagname[text()='value']
+		WebElement text1=driver.findElement(By.xpath("//button[text()='Show Message']"));
+	}
+	public void axes()
+	{
+		// Parent    //tagname[@attributetype='value']//parent::tagname
+		WebElement axes1=driver.findElement(By.xpath("//input[@placeholder='Message']//parent::div"));
+		
+		//Child       //tagname[@attributetype='value']//child::tagname[@attributetype='value']
+		WebElement axes2=driver.findElement(By.xpath("//a[@href='index.php']//child::img[@alt='logo']"));
+	}
+	
+	
+	
 	public static void main(String[] args) 
 	{
 		Locators loctr = new Locators();
