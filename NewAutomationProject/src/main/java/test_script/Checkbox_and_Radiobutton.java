@@ -41,7 +41,5 @@ public class Checkbox_and_Radiobutton extends Base
 		chk.checkbox();
 		chk.radiobtn();
 		chk.textEnabled();
-
 	}
-
 }
